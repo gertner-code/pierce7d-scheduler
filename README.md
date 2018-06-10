@@ -72,3 +72,11 @@
 
 ## individual User page
 * all info on selected user
+
+
+# Future Features
+* improved calendar
+  * better appearance
+  * auto-adjust to timezone
+* Paypal functionality
+* google calendar api endpoints
