@@ -52,3 +52,23 @@
 * lists all scheduled lessons
 * edit/delete individual lessons
 * cancel all lessons
+
+# Super Users
+## SU home page
+* show future lessons in chronological order (separated by day) over the next 7 days
+* cancel individual lessons
+* cancel entire day
+* cancel entire week
+* set regular availability (for each day)
+* set off days (with comment space and link if event)
+* view users
+
+## Full schedule page
+* all future lessons
+* can cancel from here as well
+
+## Users page
+* list of all Users
+
+## individual User page
+* all info on selected user
