@@ -30,3 +30,15 @@
   * league of legends
 * Discord Username
 * Country
+
+## Scheduling Page
+* book lessons
+* calendar to select date
+  * no overlapping lessons
+  * 30 minutes in between lessons
+  * must be scheduled 48 hours prior
+  * refund if canceled 24 hours prior
+* select time
+* select game
+* option to repeat time weekly or bi-weekly
+* display already scheduled lessons that are within the next 30 days
