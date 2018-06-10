@@ -11,4 +11,7 @@
 * Sign in
 * Event schedule
 * Recent Tweets
- 
+
+## Login Page
+* Discord OAuth
+* Paypal OAuth
