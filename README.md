@@ -2,6 +2,9 @@
 
 
 # Outline
+
+# All Users
+
 ## Front Page
 * Full Name
 * Gamer tag
@@ -30,6 +33,7 @@
   * league of legends
 * Discord Username
 * Country
+* Remove from DB
 
 ## Scheduling Page
 * book lessons
@@ -40,5 +44,11 @@
   * refund if canceled 24 hours prior
 * select time
 * select game
-* option to repeat time weekly or bi-weekly
+* option to repeat time weekly or bi-weekly (for the next 6 months)
 * display already scheduled lessons that are within the next 30 days
+* edit/delete lessons displayed
+
+## Personal schedule
+* lists all scheduled lessons
+* edit/delete individual lessons
+* cancel all lessons
