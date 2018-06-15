@@ -1,13 +1,16 @@
 #!/usr/bin/env python
 
-
+import os
 from flask import (Flask,
+                   g,
+                   session,
                    render_template,
                    request,
                    redirect,
                    jsonify,
                    url_for,
                    flash)
+from requests_oauthlib import OAuth2Session
 from sqlalchemy import create_engine, asc
 from sqlalchemy.orm import sessionmaker
 from database_setup import Genre, Book, User, Base
