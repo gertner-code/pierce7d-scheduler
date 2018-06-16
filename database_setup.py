@@ -51,6 +51,11 @@ class Event(Base):
             'game': self.game,
         }
 
+class Images(Base):
+    """Stores names of all uploaded images."""
+    id = Column(Integer, primary_key=True)
+    image_name = Column(String(50), nullable=False)
+
 engine = create_engine('postgresql://pierce7d.db')
 
 
