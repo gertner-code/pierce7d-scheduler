@@ -28,3 +28,8 @@ class Event(Base):
     time = Column(TSRANGE())  # timestamp range
     comment = Column(String(250), nullable=True)
     game = Column(String(40), nullable=False)
+
+engine = create_engine('postgresql://pierce7d.db')
+
+
+Base.metadata.create_all(engine)
