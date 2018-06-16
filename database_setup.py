@@ -54,6 +54,8 @@ class Event(Base):
 
 class Image(Base):
     """Stores names of all uploaded images."""
+    __tablename__ = 'image'
+
     id = Column(Integer, primary_key=True)
     image_name = Column(String(50), nullable=False)
 
