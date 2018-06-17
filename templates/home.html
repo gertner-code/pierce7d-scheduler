@@ -3,7 +3,19 @@
 {% include "header.html" %}
 
 <main>
+  <div class="flash">
+  	{% with messages = get_flashed_messages() %}
+      {% if messages %}
 
+          <ul>
+            {% for message in messages %}
+              <li> <strong> {{ message }} </strong> </li>
+            {% endfor %}
+          </ul>
+      {% endif %}
+    {% endwith %}
+  </div>
 </main>
+
 
 {% endblock %}
