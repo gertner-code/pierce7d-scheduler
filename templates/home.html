@@ -15,7 +15,12 @@
       {% endif %}
     {% endwith %}
   </div>
+
+  <div class="images">
+  {% for image in images%}
+      <img class="pic" src="../static/img/{{image.name}}" alt="my pic">
+  {% endfor %}
+  </div>
+
 </main>
-
-
 {% endblock %}
