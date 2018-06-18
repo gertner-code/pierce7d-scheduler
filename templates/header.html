@@ -1,7 +1,13 @@
 <div class="top-menu">
-	<div class="home">
-		<a href="{{url_for('home')}}">Home</a>
-	</div>
+  <a href="{{url_for('home')}}" class="logo"><img src="img/code_logo.png" alt="Home"></a>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="{{url_for('home')}}">Home</a></li>
+            <li><a href="{{url_for('scheduler')}}">Scheduler</a></li>
+            <li><a href="{{url_for('bio')}}">Bio</a></li>
+            <li><a href="{{url_for('contact')}}">Contact</a></li>
+          </ul>
+        </nav>
 	<div class="text-right">
 			{%if 'user_id' not in session %}
 			<a href="{{url_for('showLogin')}}">Login</a>
