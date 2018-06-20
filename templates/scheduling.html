@@ -3,7 +3,25 @@
 {% include "header.html" %}
 
 <main>
+  <div class="title"><h1>Scheduling</h1></div>
+  <form action="#" method = "post">
+    <label for="date">Date:</label>
+    <input type="date" id="lesson-date" value="2018-01-01">
+    <label for="time">Time:</label>
+    <input type="time" id="lesson-time" value="12:00:00">
 
+    <label for="comment">Comment for Pierce7D:</label>
+    <textarea class="form-control" rows="3" maxlength="250" name="comment" placeholder="Comment..."></textarea>
+
+    <fieldset id="game">
+      <input type="radio" class="form-control"  value="Smash">Smash Bros<br>
+      <input type="radio" class="form-control"  value="Hearth">Hearthstone<br>
+      <input type="radio" class="form-control"  value="Fortnite">Fortnite<br>
+      <input type="radio" class="form-control"  value="League">League of Legends<br>
+    </fieldset>
+    <br><br>
+    <button type="submit" class="btn" id="submit">Submit</button>
+  </form>
 </main>
 
 {% endblock %}
