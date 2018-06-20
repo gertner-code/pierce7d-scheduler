@@ -30,7 +30,8 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def home():
-
+    images = session.query(Image).order_by(asc(Image.name))
+    return render_template('home.html', images=images)
 
 @app.route('/login')
 def showLogin():
