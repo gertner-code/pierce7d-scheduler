@@ -57,7 +57,7 @@ class Image(Base):
     __tablename__ = 'image'
 
     id = Column(Integer, primary_key=True)
-    image_name = Column(String(50), nullable=False)
+    name = Column(String(50), nullable=False)
 
 
 engine = create_engine('postgresql://pierce7d.db')
